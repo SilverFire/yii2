@@ -34,6 +34,7 @@ initialization to support wider range of allowed characters. Because of this cha
 the event.
   - If you overrode the `yii.confirm` function and accessed the `yii` object through `this`, you must access it
 with global variable `yii` instead.
+* `yii\base\Model::formName()` is now static. If you override this method, add `static` keyword to it.
 
 Upgrade from Yii 2.0.5
 ----------------------

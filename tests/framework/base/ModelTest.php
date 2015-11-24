@@ -80,6 +80,7 @@ class ModelTest extends TestCase
     {
         $singer = new Singer();
         $this->assertEquals('Singer', $singer->formName());
+        $this->assertEquals('Singer', Singer::formName());
 
         $post = ['firstName' => 'Qiang'];
 
