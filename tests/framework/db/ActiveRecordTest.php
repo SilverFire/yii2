@@ -1661,6 +1661,9 @@ abstract class ActiveRecordTest extends DatabaseTestCase
                     'false or 1=' => 1
                 ]
             ]]],
+            [
+                [['true--' => 1]]
+            ],
         ];
     }
 
